@@ -7,9 +7,9 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aliitotz/cordova-diagnostic-plugin.git"
+        "url": "https://github.com/Veq/cordova-diagnostic-plugin.git"
     },
-    "issue": "https://github.com/aliitotz/cordova-diagnostic-plugin/issues",
+    "issue": "https://github.com/Veq/cordova-diagnostic-plugin/issues",
     "cordova": {
         "id": "cordova.plugins.diagnostic",
         "platforms": [
@@ -35,7 +35,7 @@
     ],
     "types": "./cordova.plugins.diagnostic.d.ts",
     "dependencies": {
-        "colors": "^1.1.2",
+        "colors": " 1.4.0",
         "elementtree": "^0.1.6",
         "minimist": "1.2.0"
     },
