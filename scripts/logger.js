@@ -6,7 +6,7 @@ var logger = (function(){
      * Internal properties
      *********************/
     var logger, path, minimist,
-        modulesPath, pluginId, hasColors = true, cliArgs;
+        modulesPath, pluginId, hasColors = false, cliArgs;
 
     function prefixMsg(msg){
         return pluginId+": "+msg;
